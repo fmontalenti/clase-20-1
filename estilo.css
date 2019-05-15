@@ -1,0 +1,188 @@
+nav {
+    color: orangered;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 55px;
+    justify-content: center;
+    padding-left: 10px;
+    height: auto;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    justify-content: center;
+    padding-right: 20px;
+  }
+  #menu {
+    display: none;
+  }
+   
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  #banner {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  .somos {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loguitos {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .linkedin,
+  .git {
+    width: 60px;
+    height: auto;
+    margin-right: 10%;
+  }
+  .linkedin img,
+  .git img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logoDos {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .logoDos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .texto {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h1 {
+    color: crimson;
+  }
+  p {
+    width: 800px;
+  }
+  .user {
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: space-evenly; 
+      margin-top: 3%;
+      
+  }
+  .avatar, .desarrollo {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+  .desarrollo {
+      margin-left: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 24px;
+      color: #EB8B58;
+  }
+  footer {
+    background-color: black;
+    height: 60px;
+   
+  
+  }
+  .pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      }
+  .email {
+    text-align: left;
+    color: orangered;
+    margin-right: 200px;
+    font-size: 22px;
+    
+  }
+  .mail {
+    width: 50px;
+    height: auto;
+    margin-left: 20px; 
+      }   
+  .mail img{
+    width: 100%;
+    height: auto;
+  }   
+  .logosfooter {
+    display: flex;
+    justify-content: space-around;
+    
+    }
+  .fb, .instagram, .tuiter{
+      width: 60px;
+    height: auto;
+    margin-right: 10%;
+  }
+  
+  .fb img, .instagram img, .tuiter img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    nav {
+      width: 500px;
+      height: auto;
+    }
+    header {
+      width: 500px;
+      height: auto;
+    }
+    .menu {
+      display: none;
+    }
+    #menu {
+      display: flex;
+    }
+    .somos {
+      width: 500px;
+      height: auto;
+    }
+    .texto {
+      width: 500px;
+      height: auto;
+    }
+    .user {
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+      flex-direction: column;
+      align-items: center; 
+      }
+    .avatar {
+      margin-left: 15%;
+    }  
+    
+    .desarrollo {
+     margin-left: 25%;
+      
+    }
+    #banner {
+      width: 500px;
+      height: auto;
+    }
+     }
