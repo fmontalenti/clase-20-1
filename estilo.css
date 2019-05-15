@@ -161,10 +161,18 @@ nav {
       width: 500px;
       height: auto;
     }
-    
-    .texto {
+    .quesomos {
       width: 500px;
       height: auto;
+    }
+    
+    .texto {
+      width: 600px;
+      height: auto;
+      text-align: left;
+    }
+    .loguitos {
+      display: none;
     }
     .user {
       display: flex;
