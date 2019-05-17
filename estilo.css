@@ -41,9 +41,13 @@
     display: flex;
     justify-content: center;
   }
-  #banner {
-    margin-top: 35px;
-    margin-bottom: 35px;
+  .banner {
+    margin: 40px;
+  }
+  .banner img {
+    /* width: 100px; */
+    /* height: auto; */
+
   }
   /* QUE SOMOS */
   .somos {
@@ -196,7 +200,6 @@
      margin-left: 25%;
       
     }
-    #banner {
-     
-    }
+    .banner 
+    
      }
