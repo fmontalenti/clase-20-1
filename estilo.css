@@ -122,7 +122,11 @@ nav {
   .email {
     color: orangered;
     font-size: 22px;
+    margin-left: 10px;
      
+   }
+   .email2 {
+     display: flex;
    }
   .mail {
     width: 50px;
