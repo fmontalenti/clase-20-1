@@ -6,6 +6,16 @@ nav {
     align-items: center;
     justify-content: space-between;
   }
+  a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: orangered;
+
+  }
+  a:visited {
+    text-decoration: none;
+    color: orangered;
+  }
   .logo {
     width: 55px;
     justify-content: center;
@@ -39,6 +49,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
   .loguitos {
       display: flex;
@@ -52,7 +63,7 @@ nav {
     margin-right: 10%;
   }
   .linkedin img,
-  .git img {
+  .git img, .logoDos img {
     width: 100%;
     height: auto;
   }
@@ -62,22 +73,16 @@ nav {
     height: auto;
     margin-left: 20px;
   }
-  
-  .logoDos img {
-    width: 100%;
-    height: auto;
-  }
-  
+ 
   .texto {
-    text-align: center;
+    width: 600px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
+ 
   h1 {
     color: crimson;
   }
-  p {
-    width: 800px;
-  }
+ 
   .user {
       display: flex;
       width: 100%;
@@ -87,11 +92,15 @@ nav {
       
   }
   .avatar, .desarrollo {
-      width: 100%;
+      width: 150px;
       height: auto;
       display: flex;
       align-items: center;
       text-align: center;
+  }
+  .avatar img {
+    width: 100%;
+    height: auto;
   }
   .desarrollo {
       margin-left: 10px;
@@ -111,28 +120,28 @@ nav {
     justify-content: space-between;
       }
   .email {
-    text-align: left;
     color: orangered;
-    margin-right: 200px;
     font-size: 22px;
-    
-  }
+     
+   }
   .mail {
     width: 50px;
     height: auto;
-    margin-left: 20px; 
-      }   
+    margin-left: 10px;
+    
+   }   
   .mail img{
     width: 100%;
     height: auto;
   }   
   .logosfooter {
     display: flex;
+    justify-content: flex-end;
     justify-content: space-around;
     
     }
   .fb, .instagram, .tuiter{
-      width: 60px;
+    width: 60px;
     height: auto;
     margin-right: 10%;
   }
@@ -144,12 +153,10 @@ nav {
   
   @media (max-width: 600px) {
     nav {
-      width: 500px;
-      height: auto;
+      
     }
     header {
-      width: 500px;
-      height: auto;
+      
     }
     .menu {
       display: none;
@@ -158,18 +165,19 @@ nav {
       display: flex;
     }
     .somos {
-      width: 500px;
-      height: auto;
+     
     }
     .quesomos {
-      width: 500px;
-      height: auto;
+      display: flex;
+      flex-direction: column;
+      
     }
     
     .texto {
-      width: 600px;
-      height: auto;
-      text-align: left;
+         
+    }
+    h1 {
+      
     }
     .loguitos {
       display: none;
@@ -191,7 +199,6 @@ nav {
       
     }
     #banner {
-      width: 500px;
-      height: auto;
+     
     }
      }
