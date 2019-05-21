@@ -1,3 +1,7 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
   a:link {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -112,7 +116,7 @@
       margin-left: 10px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 24px;
-      color: #EB8B58;
+      color: orangered;
   }
   /* FOOTER */
   footer {
@@ -178,10 +182,15 @@
     .loguitos {
       display: none;
     }
+    /* AVATAR RESPONSIVE */
     .user {
       display: flex;
       flex-direction: column;
     }
+    .desarrollo {
+      margin-left: 25%;
+       
+     }
     /* FOOTER RESPONSIVE */
     footer {
       flex-direction: column;
@@ -196,10 +205,7 @@
       margin-left: 15%;
     }  
     
-    .desarrollo {
-     margin-left: 25%;
-      
-    }
+    
     .banner 
     
      }
